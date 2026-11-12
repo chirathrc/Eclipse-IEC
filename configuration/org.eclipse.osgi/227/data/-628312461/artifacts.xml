@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1778488192564'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='17'>
+    <artifact classifier='org.eclipse.update.feature' id='com.infor.mapping.tool.doc' version='11.5.0.v202602160841'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/features/com.infor.mapping.tool.doc_11.5.0.v202602160841/'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\features\com.infor.mapping.tool.doc_11.5.0.v202602160841'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.infor.mapping.tool.edi' version='11.5.0.v202602160841'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/features/com.infor.mapping.tool.edi_11.5.0.v202602160841/'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\features\com.infor.mapping.tool.edi_11.5.0.v202602160841'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mapping.tool.mi' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='218528'/>
+        <property name='download.size' value='218528'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mapping.tool.mi_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mapping.tool.mi_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mec.tool.flatdef.core' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='8113045'/>
+        <property name='download.size' value='8113045'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mec.tool.flatdef.core_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mec.tool.flatdef.core_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.infor.flatfiledef.core' version='11.5.0.v202602160841'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/features/com.infor.flatfiledef.core_11.5.0.v202602160841/'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\features\com.infor.flatfiledef.core_11.5.0.v202602160841'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mapping.db.io' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='778095'/>
+        <property name='download.size' value='778095'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mapping.db.io_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mapping.db.io_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mapping.tool' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='11537077'/>
+        <property name='download.size' value='11537077'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mapping.tool_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mapping.tool_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mec.mapper' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='55476948'/>
+        <property name='download.size' value='55476948'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mec.mapper_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mec.mapper_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mec.tool.flatdef.model.editor' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='182264'/>
+        <property name='download.size' value='182264'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mec.tool.flatdef.model.editor_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mec.tool.flatdef.model.editor_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mapping.tool.doc' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='29802'/>
+        <property name='download.size' value='29802'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mapping.tool.doc_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mapping.tool.doc_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.logging' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='2308135'/>
+        <property name='download.size' value='2308135'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.logging_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.logging_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mapping.models' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='3114099'/>
+        <property name='download.size' value='3114099'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mapping.models_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mapping.models_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.infor.mapping.tool.m3' version='11.5.0.v202602160841'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/features/com.infor.mapping.tool.m3_11.5.0.v202602160841/'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\features\com.infor.mapping.tool.m3_11.5.0.v202602160841'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.infor.mapping.tool.core' version='11.5.0.v202602160841'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/features/com.infor.mapping.tool.core_11.5.0.v202602160841/'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\features\com.infor.mapping.tool.core_11.5.0.v202602160841'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mec.tool.flatdef.model' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='3163277'/>
+        <property name='download.size' value='3163277'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mec.tool.flatdef.model_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mec.tool.flatdef.model_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mapping.tool.edi' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='170564'/>
+        <property name='download.size' value='170564'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mapping.tool.edi_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mapping.tool.edi_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.lawson.mec.tool.flatdef.model.edit' version='11.5.0.v202602160841'>
+      <properties size='2'>
+        <property name='artifact.size' value='108809'/>
+        <property name='download.size' value='108809'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/chirathro/Downloads/mapper-all-11.5.0.v202602160841-win64%20(1)/dropins/mapper/plugins/com.lawson.mec.tool.flatdef.model.edit_11.5.0.v202602160841.jar'/>
+        <property name='file.name' value='C:\Users\chirathro\Downloads\mapper-all-11.5.0.v202602160841-win64 (1)\dropins\mapper\plugins\com.lawson.mec.tool.flatdef.model.edit_11.5.0.v202602160841.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

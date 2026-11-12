@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.epp.package.rcp.feature"
+      label="EPP RCP/RAP Feature"
+      version="4.37.0.20250905-1455"
+      provider-name="Eclipse Packaging Project"
+      plugin="org.eclipse.epp.package.rcp">
+
+   <description url="http://eclipse.org/epp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <!-- This ensures these features cannot be uninstalled. They are installed with installMode="root" in the product --> 
+   <requires>
+      <import feature="org.eclipse.platform" version="4.0.0" match="compatible"/>
+      <import feature="org.eclipse.jdt" version="3.0.0" match="compatible"/>
+      <import feature="org.eclipse.pde" version="3.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.epp.package.rcp"
+         download-size="268"
+         install-size="299"
+         version="4.37.0.20250905-1455"/>
+
+</feature>

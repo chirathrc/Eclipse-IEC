@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2019, 2025 ArSysOp
+
+	This program and the accompanying materials are made available under the
+	terms of the Eclipse Public License 2.0 which is available at
+	https://www.eclipse.org/legal/epl-2.0/.
+
+	SPDX-License-Identifier: EPL-2.0
+
+	Contributors:
+		ArSysOp - initial API and implementation
+		ArSysOp - further support
+-->
+<feature
+      id="org.eclipse.passage.ldc.feature"
+      label="%featureName"
+      version="4.3.0.v20250902-0726"
+      provider-name="%providerName"
+      plugin="org.eclipse.passage.ldc">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.passage.lic.execute.feature"
+         version="4.3.0.v20250902-0726"
+         name="Passage LIC Execute"/>
+
+   <plugin
+         id="org.eclipse.passage.ldc"
+         download-size="27"
+         install-size="56"
+         version="4.3.0.v20250902-0726"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.ldc.pde.core.templates"
+         download-size="20"
+         install-size="27"
+         version="4.3.0.v20250902-0726"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.ldc.pde.ui.templates"
+         download-size="61"
+         install-size="119"
+         version="4.3.0.v20250902-0726"
+         unpack="false"/>
+
+</feature>

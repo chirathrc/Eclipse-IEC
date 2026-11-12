@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.swtbot.eclipse.gef"
+      label="SWTBot for GEF Testing"
+      version="4.3.0.202506021445"
+      provider-name="Eclipse.org - SWTBot"
+      plugin="org.eclipse.swtbot.eclipse.ui">
+
+   <description url="http://www.eclipse.org/swtbot/">
+      SWTBot for testing GEF-based plugins and applications
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="SWTBot update site" url="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.swtbot.eclipse"
+         version="4.3.0.202506021445"/>
+
+   <requires>
+      <import plugin="org.junit"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.swt"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.swtbot.swt.finder"/>
+      <import plugin="org.eclipse.swtbot.eclipse.finder"/>
+      <import plugin="org.hamcrest.core"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.swtbot.eclipse.gef.finder"
+         download-size="102"
+         install-size="234"
+         version="4.3.0.202506021445"
+         unpack="false"/>
+
+</feature>

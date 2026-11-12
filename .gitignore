@@ -1,0 +1,4 @@
+# Eclipse session and crash logs
+configuration/*.log
+configuration/org.eclipse.core.runtime/.manager/*.log
+

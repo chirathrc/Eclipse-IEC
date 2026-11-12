@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.swtbot"
+      label="SWTBot for SWT Testing"
+      version="4.3.0.202506021445"
+      provider-name="Eclipse.org - SWTBot"
+      plugin="org.eclipse.swtbot.eclipse.ui">
+
+   <description url="http://www.eclipse.org/swtbot/">
+      SWTBot for testing SWT-based applications
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="SWTBot update site" url="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.swt"/>
+      <import plugin="org.junit"/>
+      <import plugin="org.hamcrest.core"/>
+      <import plugin="org.hamcrest.library"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.swtbot.swt.finder"
+         download-size="826"
+         install-size="2117"
+         version="4.3.0.202506021445"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swtbot.junit4_x"
+         download-size="38"
+         install-size="71"
+         version="4.3.0.202506021445"
+         unpack="false"/>
+
+</feature>

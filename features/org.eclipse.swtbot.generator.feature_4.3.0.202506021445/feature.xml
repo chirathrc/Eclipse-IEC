@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.swtbot.generator.feature"
+      label="SWTBot Test Recorder and Code Generator"
+      version="4.3.0.202506021445"
+      provider-name="Eclipse.org - SWTBot"
+      plugin="org.eclipse.swtbot.eclipse.ui">
+
+   <description url="http://www.eclipse.org/swtbot/">
+      SWTBot Generator: Enable recording of Events and generates code accordingly. APIs are still in a provisional state and are likely to evolve.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="SWTBot update site" url="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
+   </url>
+
+   <plugin
+         id="org.eclipse.swtbot.generator"
+         download-size="112"
+         install-size="204"
+         version="4.3.0.202506021445"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swtbot.generator.rules.workbench"
+         download-size="20"
+         install-size="31"
+         version="4.3.0.202506021445"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swtbot.generator.jdt"
+         download-size="61"
+         install-size="125"
+         version="4.3.0.202506021445"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swtbot.generator.ui"
+         download-size="26"
+         install-size="49"
+         version="4.3.0.202506021445"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swtbot.generator.client"
+         download-size="54"
+         install-size="102"
+         version="4.3.0.202506021445"
+         unpack="false"/>
+
+</feature>

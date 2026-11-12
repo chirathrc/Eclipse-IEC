@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright (c) 2018, 2025 ArSysOp and others
+
+	This program and the accompanying materials are made available under the
+	terms of the Eclipse Public License 2.0 which is available at
+	https://www.eclipse.org/legal/epl-2.0/.
+
+	SPDX-License-Identifier: EPL-2.0
+
+	Contributors:
+		ArSysOp - initial API and implementation
+		ArSysOp - further support
+-->
+<feature
+      id="org.eclipse.passage.lic.oshi.feature"
+      label="%featureName"
+      version="4.3.0.v20250902-0726"
+      provider-name="%providerName"
+      plugin="org.eclipse.passage.lic.oshi">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.passage.lic.equinox.feature" version="0.0.0"/>
+   </requires>
+
+   <plugin
+         id="com.sun.jna"
+         download-size="1969"
+         install-size="5733"
+         version="5.17.0.v20250316-1700"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.jna.platform"
+         download-size="1346"
+         install-size="2612"
+         version="5.17.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.github.oshi.oshi-core"
+         download-size="996"
+         install-size="1918"
+         version="6.8.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.passage.lic.oshi"
+         download-size="35"
+         install-size="64"
+         version="4.3.0.v20250902-0726"
+         unpack="false"/>
+
+</feature>

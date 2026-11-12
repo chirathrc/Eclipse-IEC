@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.pde.spies"
+      label="%featureName"
+      version="1.0.800.v20250822-0904"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.tools.layout.spy"
+         version="1.2.700.v20250506-0747"/>
+
+   <plugin
+         id="org.eclipse.pde.spy.core"
+         version="1.1.500.v20250521-0419"/>
+
+   <plugin
+         id="org.eclipse.pde.spy.model"
+         version="0.13.400.v20250521-0419"/>
+
+   <plugin
+         id="org.eclipse.pde.spy.css"
+         version="0.13.600.v20250513-0835"/>
+
+   <plugin
+         id="org.eclipse.pde.spy.preferences"
+         version="0.13.600.v20250513-0835"/>
+
+   <plugin
+         id="org.eclipse.pde.spy.context"
+         version="1.1.500.v20250506-0751"/>
+
+   <plugin
+         id="org.eclipse.pde.spy.bundle"
+         version="0.13.500.v20250428-1907"/>
+
+   <plugin
+         id="org.eclipse.pde.spy.event"
+         version="1.2.100.v20250428-1907"/>
+         
+   <plugin
+         id="org.eclipse.swt.tools.spies"
+         version="3.109.700.v20250822-0904"/>
+
+</feature>
