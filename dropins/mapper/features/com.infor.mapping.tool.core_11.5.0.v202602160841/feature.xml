@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.infor.mapping.tool.core"
+      label="Infor Business Document Mapper Core Feature"
+      version="11.5.0.v202602160841"
+      provider-name="Infor"
+      plugin="com.lawson.mec.mapper">
+
+   <description>
+      The Infor Business Document Mapper Core Feature contains basic tooling for defining and deploying data transforms.
+   </description>
+
+   <copyright>
+Copyright (c) 2026 Infor. All rights reserved. 
+The word and design marks set forth herein are trademarks and/or registered trademarks of Infor and/or its affiliates and subsidiaries. All rights reserved. All other trademarks listed herein are the property of their respective owners. www.infor.com.
+   </copyright>
+
+   <license>
+Copyright (c) 2026 Infor. All rights reserved. 
+The word and design marks set forth herein are trademarks and/or registered trademarks of Infor and/or its affiliates and subsidiaries. All rights reserved. All other trademarks listed herein are the property of their respective owners. www.infor.com.
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.gef" />
+   </requires>
+   
+   <!-- Unsorted plugs --> 
+   <plugin
+      id="com.lawson.logging"
+      download-size="0"
+      install-size="0"
+      version="11.5.0.v202602160841"/>  
+
+   <plugin
+      id="com.lawson.mapping.models"
+      download-size="0"
+      install-size="0"
+      version="11.5.0.v202602160841"/>
+
+   <plugin
+      id="com.lawson.mapping.db.io"
+      download-size="0"
+      install-size="0"
+      version="11.5.0.v202602160841"/>  	  
+   
+   <plugin
+      id="com.lawson.mapping.tool"
+      download-size="0"
+      install-size="0"
+      version="11.5.0.v202602160841"/>  
+
+<!-- MEC-3152: Comment this out since "mk doc" will deploy tool.doc jar file instead
+  <plugin
+      id="com.lawson.mapping.tool.doc"
+      download-size="0"
+      install-size="0"
+      version="11.5.0.v202602160841"/>
+-->
+      
+  <plugin
+      id="com.lawson.mec.mapper"
+      download-size="0"
+      install-size="0"
+      version="11.5.0.v202602160841"/>
+   
+   <!-- DUMMY COMMENT -->
+</feature>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.infor.flatfiledef.core"
+      label="Infor Flat File Definition Feature"
+      version="11.5.0.v202602160841"
+      provider-name="Infor">
+
+   <description>
+      The Infor Flat File Definition Feature contains basic tooling for defining and deploying flat file definition.
+   </description>
+
+   <copyright>
+Copyright (c) 2026 Infor. All rights reserved. 
+The word and design marks set forth herein are trademarks and/or registered trademarks of Infor and/or its affiliates and subsidiaries. All rights reserved. All other trademarks listed herein are the property of their respective owners. www.infor.com.
+   </copyright>
+
+   <license>
+Copyright (c) 2026 Infor. All rights reserved. 
+The word and design marks set forth herein are trademarks and/or registered trademarks of Infor and/or its affiliates and subsidiaries. All rights reserved. All other trademarks listed herein are the property of their respective owners. www.infor.com.
+   </license>
+
+<!--
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.emf.edit"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+      <import plugin="org.eclipse.ui.forms"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.core.expressions"/>
+	  <import plugin="com.lawson.mec.tool.flatdef.model"/>
+	  <import plugin="com.lawson.mec.tool.flatdef.core"/>
+      <import plugin="com.lawson.mec.tool.flatdef.model.editor"/>
+   </requires>
+-->
+   
+   <requires>
+	  <import feature="com.infor.mapping.tool.core" />
+	  <import feature="org.eclipse.emf" />
+   </requires>
+   
+   <plugin
+         id="com.lawson.mec.tool.flatdef.model"
+         download-size="0"
+         install-size="0"
+         version="11.5.0.v202602160841"/>
+   <plugin
+         id="com.lawson.mec.tool.flatdef.core"
+         download-size="0"
+         install-size="0"
+         version="11.5.0.v202602160841"/>
+   
+   <plugin
+         id="com.lawson.mec.tool.flatdef.model.edit"
+         download-size="0"
+         install-size="0"
+         version="11.5.0.v202602160841"/>
+
+   <plugin
+         id="com.lawson.mec.tool.flatdef.model.editor"
+         download-size="0"
+         install-size="0"
+         version="11.5.0.v202602160841"/>
+
+<!--
+   <plugin
+         id="com.lawson.mec.tool.flatdef.ui"
+         download-size="0"
+         install-size="0"
+         version="11.5.0.v202602160841"/>
+-->
+ 
+</feature>

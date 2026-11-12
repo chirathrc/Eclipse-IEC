@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.infor.mapping.tool.m3"
+      label="Infor Business Document Mapper M3 Feature"
+      version="11.5.0.v202602160841"
+      provider-name="Infor">
+
+   <description>
+      The Infor Business Document Mapper M3 Feature enables use of the M3 API in data transforms.
+   </description>
+
+   <copyright>
+Copyright (c) 2026 Infor. All rights reserved. 
+The word and design marks set forth herein are trademarks and/or registered trademarks of Infor and/or its affiliates and subsidiaries. All rights reserved. All other trademarks listed herein are the property of their respective owners. www.infor.com.
+   </copyright>
+
+   <license>
+Copyright (c) 2026 Infor. All rights reserved. 
+The word and design marks set forth herein are trademarks and/or registered trademarks of Infor and/or its affiliates and subsidiaries. All rights reserved. All other trademarks listed herein are the property of their respective owners. www.infor.com.
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.gef" />
+      <import feature="com.infor.mapping.tool.core" />
+   </requires>
+      
+   
+   <plugin
+      id="com.lawson.mapping.tool.mi"
+      download-size="0"
+      install-size="0"
+      version="11.5.0.v202602160841"/> 
+   
+   <!-- DUMMY COMMENT -->
+</feature>

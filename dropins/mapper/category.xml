@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <feature url="features/com.infor.flatfiledef.core_11.5.0.v202602160841.jar" id="com.infor.flatfiledef.core" version="11.5.0.v202602160841" >
+    <category name="ion_mapping_category" />
+  </feature>
+  <feature url="features/com.infor.mapping.tool.core_11.5.0.v202602160841.jar" id="com.infor.mapping.tool.core" version="11.5.0.v202602160841" >
+    <category name="ion_mapping_category" />
+  </feature>
+  <feature url="features/com.infor.mapping.tool.doc_11.5.0.v202602160841.jar" id="com.infor.mapping.tool.doc" version="11.5.0.v202602160841" >
+    <category name="ion_mapping_category" />
+  </feature>
+  <feature url="features/com.infor.mapping.tool.edi_11.5.0.v202602160841.jar" id="com.infor.mapping.tool.edi" version="11.5.0.v202602160841" >
+    <category name="ion_mapping_category" />
+  </feature>
+  <feature url="features/com.infor.mapping.tool.m3_11.5.0.v202602160841.jar" id="com.infor.mapping.tool.m3" version="11.5.0.v202602160841" >
+    <category name="ion_mapping_category" />
+  </feature>
+  <category-def label="Infor Business Document Mapper" name="ion_mapping_category">
+<description>The Infor Business Document Mapper category contains mapper features that are ready for update.</description>
+</category-def>
+</site>

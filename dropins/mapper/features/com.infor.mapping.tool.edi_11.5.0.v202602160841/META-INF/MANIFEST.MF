@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.6
+Created-By: 21.0.8+9-LTS (Amazon.com Inc.)
+
+Name: feature.xml
+SHA-256-Digest: qqs8+ZtPWJFzJjZtEFYA7ql3wqU59Os+QwXlwMT6e8M=
+
